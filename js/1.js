@@ -49,19 +49,12 @@ function startTime()
                   return i;
 
             }
-		var name = prompt("请输入你的名字","名字");
-		var mm = prompt("请输入你的学号","学号");
-		if(name!='aaaa'){
-			x=document.getElementById("demo");  //查找元素
-			var a=name+'-'+mm;
-			x.innerHTML=a;    //改变内容
-		}
 //		document.write("<p style='color: red;'>"+name+"</p>")
 
 
 //获取图片   图片改变时调用
-let imgElement = document.getElementById('putt');
-	let inputElement = document.getElementById('fileInput');
-	inputElement.addEventListener('change', (e) => {
-		imgElement.src = URL.createObjectURL(e.target.files[0]);
-	}, false);
+//let imgElement = document.getElementById('putt');
+	//let inputElement = document.getElementById('fileInput');
+	//inputElement.addEventListener('change', (e) => {
+	//	imgElement.src = URL.createObjectURL(e.target.files[0]);
+	//}, false);
