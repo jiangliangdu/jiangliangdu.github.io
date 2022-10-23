@@ -49,9 +49,12 @@ function startTime()
                   return i;
 
             }
-		var name = prompt("","黄仁鑫");
-		var mm = prompt("","202136090116");
-		
+		var name = prompt("请输入你的名字","名字");
+		var mm = prompt("请输入你的学号","学号");
+		if(name!='aaaa'){
+			x=document.getElementById("demo");  //查找元素
+			var a=name+'-'+mm;
+			x.innerHTML=a;    //改变内容
 		}
 //		document.write("<p style='color: red;'>"+name+"</p>")
 
