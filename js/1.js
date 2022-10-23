@@ -49,12 +49,16 @@ function startTime()
                   return i;
 
             }
+		var name = prompt("","黄仁鑫");
+		var mm = prompt("","202136090116");
+		
+		}
 //		document.write("<p style='color: red;'>"+name+"</p>")
 
 
 //获取图片   图片改变时调用
-//let imgElement = document.getElementById('putt');
-	//let inputElement = document.getElementById('fileInput');
-	//inputElement.addEventListener('change', (e) => {
-	//	imgElement.src = URL.createObjectURL(e.target.files[0]);
-	//}, false);
+let imgElement = document.getElementById('putt');
+	let inputElement = document.getElementById('fileInput');
+	inputElement.addEventListener('change', (e) => {
+		imgElement.src = URL.createObjectURL(e.target.files[0]);
+	}, false);
